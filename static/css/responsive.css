@@ -108,13 +108,15 @@
     padding: 28px;
   }
   .information-banner .wp-banner .wp-logo{
-    margin-bottom: 32px;
+    width: 68px;
+    height: 68px;
+    margin-bottom: 28px;
     margin-right: 0;
   }
   .information-banner .wp-banner .banner-title {
-    font-size: 34px;
-    line-height: 48px;
-    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 28px;
     margin-right: 0;
   }
   .information-banner .wp-banner .btn-info-banner{
@@ -124,6 +126,16 @@
     background: linear-gradient(10deg, #0078BA 50.08%, rgba(0, 120, 186, 0) 111.7%), url(../images/banner-main.jpg);
     background-size: cover;
     background-position-x: 30%;
+  }
+  .main-info .body-right-info .right-info-item .wp-time .date{
+    font-size: 10px;
+  }
+  .main-info .body-right-info .right-info-item {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+  .main-info .wp-right-info .header-right-info{
+    padding: 26px 24px 18px 24px;
   }
   .main-info .wp-title-info .link-more{
     display: none;
