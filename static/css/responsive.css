@@ -5,6 +5,12 @@
   .top-nav{
     display: none;
   }
+  .main-nav .navbar-brand{
+    max-width: 138px;
+  }
+  .main-nav .navbar-collapse::before {
+    top: 62px;
+}
   .main-nav .wrapper-search{
     display: none;
   }
@@ -56,6 +62,10 @@
     margin-bottom: 32px;
     width: 100%;
   }
+  .main-menu .wp-inner-menu .menu span{
+    font-size: 14px;
+    line-height: 19px;
+  }
   .main-menu .wp-inner-menu .menu{
     margin-bottom: 18px;
   }
@@ -73,15 +83,44 @@
   .about .about-text{
     margin-bottom: 48px;
   }
+  .about .media-control.xl{
+    display: none;
+  }
+  .about .media-control.xs{
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  section.about{
+    background-size: 150%;
+    background-position: bottom;
+  }
   .counting .wp-prodi{
     justify-content: flex-start;
+    position: relative;
+  }
+  .counting .wp-prodi::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -12px;
+    width: calc(100% + 24px);
+    height: 1px;
+    background-color: rgba(174, 185, 201, 0.35);
   }
   .counting .wp-prodi .item-prodi {
     margin-bottom: 18px;
     padding-left: 12px;
   }
+  .counting .wp-prodi .item-prodi .wp-inside-prodi .wp-amount {
+    width: 54px;
+    height: 54px;
+  }
   .counting .wp-prodi .item-prodi::after{
     display: none;
+  }
+  .counting .wp-prodi .item-prodi .wp-inside-prodi .title{
+    font-size: 18px;
   }
   .counting .wp-counting .col{
     flex: 1 0 100%;
@@ -102,7 +141,11 @@
     transform: translateX(-50%);
   }
   section.counting{
+    padding-top: 42px;
     padding-bottom: 48px;
+  }
+  .main-info .wp-link.xs{
+    display: flex;
   }
   .information-banner .wp-banner{
     padding: 28px;
