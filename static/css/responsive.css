@@ -206,16 +206,515 @@
   footer .wp-copy-right .wp-list-sosmed{
     margin-bottom: 18px;
   }
+  section.second-banner .row-banner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    position: relative;
+  }
+  section.second-banner .row-banner .col-right {
+    width: 100%;
+    padding-right: 0;
+  }
+  section.second-banner .wp-image {
+    min-height: 100px;
+    border-radius: 16px;
+    background: linear-gradient(
+      90deg
+      , #082A50 -2.16%, rgba(8, 42, 80, 0) 120.34%);
+  }
+  section.second-banner .row-banner .col-left {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+  }
+  section.second-banner .title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+    max-width: 300px;
+  }
+  section.second-banner .about {
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+  }
+  .second-banner .wp-image img {
+    height: 252px;
+    object-position: right;
+  }
+  .second-banner .wp-absolute-img {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 12px 32px rgb(53 74 99 / 10%);
+    width: 60px;
+    height: 60px;
+    padding: 11px;
+  }
+  .second-banner .wp-banner-sosmed li a {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-right: 16px;
+  }
+  section.content-about .wrapper-quote .text-quote {
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    padding-left: 0;
+  }
+  section.content-about .wrapper-quote .text-quote::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  section.misi .wrapper-list ul li{
+    font-size: 20px;
+  }
+  .third-banner .row-banner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .third-banner .row-banner .col-left {
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 28px;
+  }
+  .third-banner .row-banner .col-right {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .third-banner .wp-absolute-img{
+    display: none;
+  }
+  .third-banner .wp-image{
+    max-width: 168px;
+    min-height: 228px;
+    margin-bottom: 18px;
+  }
+  .third-banner .wp-image img{
+    min-height: 228px;
+  }
+  .third-banner .text-name.xs{
+    display: block;
+  }
+  .third-banner .text-name.xl{
+    display: none;
+  }
+  .third-banner .wp-banner-sosmed {
+    margin-bottom: 48px;
+  }
+  .third-banner .title {
+    line-height: 58px;
+    margin-bottom: 24px;
+  }
+  .third-banner .about{
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+  
+  .g-5, .gx-5 {
+    --bs-gutter-x: 0;
+  }
+  .top-nav{
+    display: none;
+  }
+  .main-nav .navbar-brand{
+    max-width: 138px;
+  }
+  .main-nav .navbar-collapse::before {
+    top: 62px;
+}
+  .main-nav .wrapper-search{
+    display: none;
+  }
+  .main-nav .navbar-nav .nav-link{
+    margin-left: 0;
+  }
+  .main-nav .navbar-toggler-icon {
+    background: url(../images/toggle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .main-nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .main-nav .navbar-nav .active>.nav-link::before{
+    display: none;
+  }
+  .main-nav .nav-item .dropdown-menu{
+    min-width: 100%;
+  }
+  .main-nav .row-cols-2>*{
+    width: 100%;
+  }
+  .main-nav .wp-nav-row .wp-dropdown-item:nth-child(odd){
+    padding-right: 0;
+  }
+  .main-nav .wp-nav-row .wp-dropdown-item:nth-child(even){
+    padding-left: 0;
+  }
+  .main-nav .nav-item .dropdown-menu .wp-nav-row::after{
+    display: none;
+  }
+  section.main-banner{
+    max-height: 100vh;
+    padding-top: 86px;
+    padding-bottom: 188px;
+  }
+  .main-banner .banner-title {
+    font-size: 32px;
+    line-height: 44px;
+    max-width: 332px;
+  } 
+  .main-menu .wp-outer-menu{
+    padding: 36px;
+  }
+  .main-menu .wp-outer-menu .menu-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+  }
+  .main-menu .wp-inner-menu .menu span{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .main-menu .wp-inner-menu .menu{
+    margin-bottom: 18px;
+  }
+  section.mitra .row .col-md-2{
+    width: 50%;
+  }
+  section.mitra .row .col-md-2 img{
+    margin-bottom: 28px;
+    padding: 0px 18px;
+  }
+  section.about{
+    margin-top: 0;
+    padding-top: 18px;
+  }
+  .about .about-text{
+    margin-bottom: 48px;
+  }
+  .about .media-control.xl{
+    display: none;
+  }
+  .about .media-control.xs{
+    display: block;
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  section.about{
+    background-size: 150%;
+    background-position: bottom;
+  }
+  .counting .wp-prodi{ 
+    position: relative;
+  }
+  .counting .wp-prodi::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -12px;
+    width: calc(100% + 24px);
+    height: 1px;
+    background-color: rgba(174, 185, 201, 0.35);
+  }
+  .counting .wp-prodi .item-prodi::after{
+    display: none;
+  }
+  .counting .wp-prodi .item-prodi .wp-inside-prodi .title{
+    font-size: 18px;
+  }
+  .counting .wp-counting .col{
+    flex: 1 0 100%;
+  }
+  .counting .wp-counting .item-counting{
+    padding: 18px 0px;
+  }
+  .counting .wp-counting .item-counting::after {
+    content: "";
+    position: absolute;
+    width: 160px;
+    height: 1px;
+    background-color: rgba(33, 66, 104, 0.35);
+    left: 50%;
+    right: auto;
+    top: auto;
+    bottom: 0;
+    transform: translateX(-50%);
+  }
+  section.counting{
+    padding-top: 42px;
+    padding-bottom: 48px;
+  }
+  .main-info .wp-link.xs{
+    display: flex;
+  }
+  .information-banner .wp-banner{
+    padding: 28px;
+  }
+  .information-banner .wp-banner .wp-logo{
+    width: 68px;
+    height: 68px;
+    margin-bottom: 28px;
+    margin-right: 0;
+  }
+  .information-banner .wp-banner .banner-title {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 28px;
+    margin-right: 0;
+  }
+  .information-banner .wp-banner .btn-info-banner{
+    margin-left: 0;
+  }
+  .information-banner .wp-banner {
+    background: linear-gradient(10deg, #0078BA 50.08%, rgba(0, 120, 186, 0) 111.7%), url(../images/banner-main.jpg);
+    background-size: cover;
+    background-position-x: 30%;
+  }
+  .main-info .body-right-info .right-info-item .wp-time .date{
+    font-size: 10px;
+  }
+  .main-info .body-right-info .right-info-item {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+  .main-info .wp-right-info .header-right-info{
+    padding: 26px 24px 18px 24px;
+  }
+  .main-info .wp-title-info .link-more{
+    display: none;
+  }
+  .main-info .item-info .wp-image-link{
+    width: 356px;
+    height: 110px;
+    margin-right: 22px;
+  }
+  section.information .col-md-7{
+    margin-bottom: 68px;
+  }
+  footer .col{
+    flex: 1 0 100%;
+  }
+  footer .col-md-4{
+    margin-bottom: 38px;
+  }
+  footer .col .footer-title.mt-5 {
+    margin-top: 2rem!important;
+  }
+  footer .wp-copy-right {
+    flex-direction: column-reverse;
+  }
+  footer .wp-copy-right .wp-list-sosmed{
+    margin-bottom: 18px;
+  }
+  
+  section.second-banner .row-banner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    position: relative;
+  }
+  section.second-banner .row-banner .col-right {
+    width: 100%;
+    padding-right: 0;
+  }
+  section.second-banner .wp-image {
+    min-height: 100px;
+    border-radius: 16px;
+    background: linear-gradient(
+      90deg
+      , #082A50 -2.16%, rgba(8, 42, 80, 0) 120.34%);
+  }
+  section.second-banner .row-banner .col-left {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+  }
+  section.second-banner .title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+    max-width: 300px;
+  }
+  section.second-banner .about {
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+  }
+  .second-banner .wp-image img {
+    height: 252px;
+    object-position: right;
+  }
+  .second-banner .wp-absolute-img {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 12px 32px rgb(53 74 99 / 10%);
+    width: 60px;
+    height: 60px;
+    padding: 11px;
+  }
+  .third-banner .wp-absolute-img{
+    display: none;
+  }
+  .third-banner .row-banner .col-left {
+    width: 50%;
+    padding-left: 0;
+    padding-right: 15px;
+  }
+  .third-banner .row-banner .col-right {
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  .third-banner .about {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .third-banner .title {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 18px;
+  }
+  .third-banner .text-name{
+    font-size: 22px;
+  }
+  .third-banner .wp-banner-sosmed{
+    margin-bottom: 16px;
+  }
+  section.content-about .wrapper-quote .text-quote {
+    font-size: 20px;
+    line-height: 38px;
+    text-align: center;
+    padding-left: 0;
+  }
+  section.content-about .wrapper-quote .text-quote::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  section.misi .wrapper-list ul li{
+    font-size: 20px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+  .main-nav .navbar-toggler-icon {
+    background: url(../images/toggle.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .main-nav .navbar-toggler:focus{
+    box-shadow: none;
+  }
+  .main-nav .navbar-nav .active>.nav-link::before{
+    display: none;
+  }
+  section.second-banner .row-banner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    position: relative;
+  }
+  section.second-banner .row-banner .col-right {
+    width: 100%;
+    padding-right: 0;
+  }
+  section.second-banner .wp-image {
+    min-height: 100px;
+    border-radius: 16px;
+    background: linear-gradient(
+      90deg
+      , #082A50 -2.16%, rgba(8, 42, 80, 0) 120.34%);
+  }
+  section.second-banner .row-banner .col-left {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: absolute;
+  }
+  section.second-banner .title {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 18px;
+    color: #FFFFFF;
+    max-width: 300px;
+  }
+  section.second-banner .about {
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+  }
+  .second-banner .wp-image img {
+    height: 252px;
+    object-position: right;
+  }
+  .second-banner .wp-absolute-img {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 12px 32px rgb(53 74 99 / 10%);
+    width: 60px;
+    height: 60px;
+    padding: 11px;
+  }
+  .third-banner .row-banner .col-left {
+    width: 40%;
+    padding-left: 0;
+  }
+  .third-banner .row-banner .col-right {
+    width: 60%;
+    padding-right: 0;
+  }
+  
+  .third-banner .about {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 12px;
+  }
+  .third-banner .title {
+    font-size: 38px;
+    line-height: 48px;
+    margin-bottom: 18px;
+  }
+  .third-banner .text-name{
+    font-size: 22px;
+  }
+  footer .col-md-4 {
+    width: 100%;
+    margin-bottom: 36px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  
+  .second-banner .title {
+    font-size: 54px;
+    line-height: 64px;
+}
+.second-banner .wp-image img{
+  height: 334px;
+}
+  .third-banner .row-banner .col-left{
+    padding-left: 0;
+  }
 }
 
 @media (min-width: 576px) {

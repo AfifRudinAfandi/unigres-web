@@ -1060,6 +1060,12 @@ section.struktur .wrapper-struktur img{
   padding-left: 12px;
   position: relative;
 }
+.third-banner .text-name.xs{
+  display: none;
+}
+.third-banner .text-name.xl{
+  display: block;
+}
 .third-banner .text-name::before{
   font-family: "Font Awesome 5 Free";
   content: "\f10d";
