@@ -144,7 +144,7 @@
     padding-top: 42px;
     padding-bottom: 48px;
   }
-  .main-info .wp-link.xs{
+  .wp-link.xs{
     display: flex;
   }
   .information-banner .wp-banner{
@@ -180,7 +180,7 @@
   .main-info .wp-right-info .header-right-info{
     padding: 26px 24px 18px 24px;
   }
-  .main-info .wp-title-info .link-more{
+  .wp-title-info .link-more{
     display: none;
   }
   .main-info .item-info .wp-image-link{
@@ -317,6 +317,84 @@
     font-size: 20px;
     margin-bottom: 12px;
   }
+
+  section.theme-2 .item-info {
+    width: 100%;
+   }
+   section.agenda .content-agenda .wp-item-left{
+     margin-bottom: 68px;
+   }
+   section.agenda .navigation-agenda{
+     flex-direction: column;
+     row-gap: 18px;
+   }
+   section.agenda .navigation-agenda .nav-item{
+     width: 100%;
+   }
+   .modal-agenda .modal-body {
+    background-color: #FFFFFF;
+    padding: 20px 26px 38px 26px;
+  }
+   .modal-agenda .modal-body .body-title {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+  }
+  .modal-agenda .modal-body .wp-date-time p.date {
+    font-size: 12px;
+    line-height: 18px;
+    margin-right: 16px;
+  }
+  .modal-agenda .modal-body .wp-date-time p.date img {
+    width: 14px;
+    margin-right: 6px;
+    vertical-align: top;
+  }.modal-agenda .modal-body .wp-date-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  .modal-agenda .modal-body .body-content p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 21px;
+    color: #6E7799;
+    margin-bottom: 0;
+  }
+
+  section.contact .contact-navigation .nav-link span{
+  display: none;    
+  }
+  section.contact .contact-navigation .nav-link img{
+    margin-bottom: 0;
+    height: 38px;
+  }
+  section.contact .contact-navigation .nav-link{
+    padding: 32px;
+  }
+  section.contact .content-contact .col-md-5{
+    margin-bottom: 38px;
+  }
+  section.theme-1{
+    padding-top: 28px;
+  }
+  section.theme-1 .main-content{
+    padding: 0;
+  }
+  section.theme-1 .wp-social a {
+    margin-left: 12px;
+}
+  section.theme-1 .main-content .page-info {
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 28px;
+  }
+  section.theme-1 .main-content .page-info::before {
+    font-size: 32px;
+  }
+
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
   
@@ -456,7 +534,7 @@
     padding-top: 42px;
     padding-bottom: 48px;
   }
-  .main-info .wp-link.xs{
+  .wp-link.xs{
     display: flex;
   }
   .information-banner .wp-banner{
@@ -492,7 +570,7 @@
   .main-info .wp-right-info .header-right-info{
     padding: 26px 24px 18px 24px;
   }
-  .main-info .wp-title-info .link-more{
+ .wp-title-info .link-more{
     display: none;
   }
   .main-info .item-info .wp-image-link{
@@ -612,6 +690,25 @@
   section.misi .wrapper-list ul li{
     font-size: 20px;
   }
+
+  section.theme-2 .item-info {
+    width: 100%;
+   }
+   
+  section.contact .contact-navigation .nav-link span{
+    display: none;    
+    }
+    section.contact .contact-navigation .nav-link img{
+      margin-bottom: 0;
+      height: 38px;
+    }
+    section.contact .contact-navigation .nav-link{
+      padding: 32px;
+    }
+    
+  section.contact .content-contact .col-md-5{
+    margin-bottom: 38px;
+  }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .main-nav .navbar-toggler-icon {
@@ -698,6 +795,20 @@
   .third-banner .text-name{
     font-size: 22px;
   }
+
+
+
+
+  section.theme-2 .item-info {
+   width: 100%;
+  }
+  section.agenda .content-agenda .col-md-8{
+    width: 60%;
+  }
+  section.agenda .content-agenda .col-md-4{
+    width: 40%;
+  }
+
   footer .col-md-4 {
     width: 100%;
     margin-bottom: 36px;
